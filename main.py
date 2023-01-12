@@ -53,7 +53,7 @@ def main():
     wait()
 
     elem = driver.find_element(By.XPATH, "/html/body/app-root/app-side-nav-outer-toolbar/dx-drawer/div/div[2]/dx-scroll-view/div[1]/div/div[1]/div[2]/div[1]/app-container/time-card-register/div/div[2]/div[2]/pm-time-card-register/pm-card/div/div[2]/div[1]/div[2]/div/pm-button/button")
-    elem.click()
+    # elem.click()
 
     wait()
 
@@ -61,6 +61,7 @@ def main():
     driver.close()
     print("finalizando script de bater ponto.")
 
+getCredentials()
 main()
 
 
